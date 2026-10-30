@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(99, 3, 102);
+}
+.contenedor{
+    margin-top: 80px;
+}
+p{
+    font-size: 20px;
+}
+button{
+    padding: 10px 20px;
+    margin: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#rojo{
+    background-color: red;
+}
+#azul{
+    background-color: blue;
+}
+#verde{
+    background-color: green;
+}

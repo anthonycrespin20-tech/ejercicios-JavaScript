@@ -1,14 +1,15 @@
-let botonRojo = document.getElementById("rojo");
-let botonAzul = document.getElementById("azul");
-let botonVerde = document.getElementById("verde");
+let botonmorado = document.getElementById("morado");
+let botonnegro = document.getElementById("negro");
+let botonamarillo = document.getElementById("amarillo");
 
-botonRojo.addEventListener("click", function(){
-    document.body.style.backgroundColor = "lightcoral";
+botonmorado.addEventListener("click", function () {
+    document.body.style.backgroundColor = "purple";
 });
 
-botonAzul.addEventListener("click", function(){
-    document.body.style.backgroundColor = "lightblue";
+botonnegro.addEventListener("click", function () {
+    document.body.style.backgroundColor = "black";
 });
-botonVerde.addEventListener("click", function(){
-    document.body.style.backgroundColor = "lightgreen";
+
+botonamarillo.addEventListener("click", function () {
+    document.body.style.backgroundColor = "yellow";
 });
